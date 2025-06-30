@@ -45,7 +45,6 @@ export const getAllCompanions = async ({
 
   return companions;
 };
-
 export const getCompanion = async (id: string) => {
   const supabase = createSupabaseClient();
 
